@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:text="Get started"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/tv_reg_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Your mobile number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tv_registration1_continue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/text_on_green"
+        android:background="@drawable/circular_button_green"
+        android:text="Continue"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+</LinearLayout>

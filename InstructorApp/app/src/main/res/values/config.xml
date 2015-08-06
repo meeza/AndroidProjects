@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_id">DRXeNA3flDGWf7d2VTgfTZA3pdYdPw3sFVrUiI1p</string>
+    <string name="client_key">wcN2rPVVswNOfzgmq61G7ZHiDyZJbs0Fqy1umJTn</string>
+
+    <string name="authentication_data">authenticationSharedPreferences</string>
+</resources>

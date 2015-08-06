@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/tv_reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Name"
+        android:inputType="textNoSuggestions|textCapWords" />
+
+
+    <EditText
+        android:id="@+id/tv_reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/country_input">
+        <Spinner
+            android:id="@+id/spinner_schools"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:prompt="@string/city"/>
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_registration1_continue"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/text_on_green"
+        android:background="@drawable/circular_button_green"
+        android:text="Continue"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+</LinearLayout>

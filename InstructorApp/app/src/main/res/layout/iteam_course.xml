@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:id="@+id/ll_topViewItemCourse">
+    <TextView
+        android:id="@+id/tv_titleCourseItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mathematics"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/tv_subTitleCourseItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5th Standard"
+        android:textSize="18sp"
+        android:textColor="@color/gray_subtitle"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/tv_timingsCourseItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Period: 10 pm - 10:30 pm"
+        android:textSize="18sp"
+        android:textColor="@color/gray_subtitle"
+        android:typeface="monospace"/>
+
+</LinearLayout>

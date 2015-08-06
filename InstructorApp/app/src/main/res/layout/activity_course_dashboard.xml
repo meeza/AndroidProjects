@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/action_bar_two_items"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/ll_attendances_courseDashboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_button_green"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_on_green"
+                android:text="Take Attendances"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_white_dull"
+                android:text="Take attendance for this class/course and submit to the management after completion."
+                android:paddingTop="5dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_home_onGoingTreatments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circular_button_green"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_on_green"
+                android:text="Course Track"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_white_dull"
+                android:text="Keep track of your students performances, attendances, and other records."
+                android:textSize="14sp"
+                android:paddingTop="5dp"
+                android:textStyle="bold"
+                android:typeface="monospace"/>
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/ll_home_myHealthRecord"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/circular_button_green"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginBottom="20dp">-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/text_on_green"-->
+                <!--android:text="My Health Record"-->
+                <!--android:textSize="24sp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:typeface="monospace"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="@color/text_white_dull"-->
+                <!--android:text="Keep track of your health history, medical reports, and medical prescriptions"-->
+                <!--android:textSize="14sp"-->
+                <!--android:paddingTop="5dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:typeface="monospace"/>-->
+        <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
